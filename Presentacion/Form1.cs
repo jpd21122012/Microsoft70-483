@@ -13,10 +13,23 @@ namespace Presentacion
 {
     public partial class Form1 : Form
     {
+        public Instrumento ins;
+        public Vehiculo ve;
+        public IFuncion fun;
         public Form1()
         {
-            Instrumento ins = new Guitarra();
+            ins = new Guitarra();
+            ve = new Vehiculo();
+            fun = new Vehiculo();
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show(ve.Encender());
+            MessageBox.Show(fun.Encender());
+            //ins = new Violin();
+            //MessageBox.Show(ins.Tocar());
         }
     }
 }

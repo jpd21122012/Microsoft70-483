@@ -12,7 +12,7 @@ namespace Musica
         {
 
         }
-        public abstract void MiMetodo();
+        public abstract string Tocar();
     }
     public class Guitarra : Instrumento
     {
@@ -21,9 +21,16 @@ namespace Musica
 
         }
 
-        public override void MiMetodo()
+        public override string Tocar()
         {
-            
+            return "Guitarra";
+        }
+    }
+    public class Violin : Instrumento
+    {
+        public override string Tocar()
+        {
+            return "Violin";
         }
     }
 }
