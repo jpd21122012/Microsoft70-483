@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ColegioDB" Class="ColegioContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-74B6KEG\SQLEXPRESS;Initial Catalog=ColegioDB;Integrated Security=True" SettingsObjectName="Linq.Properties.Settings" SettingsPropertyName="ColegioDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tb_alumno" Member="tb_alumnos">
+    <Type Name="tb_alumno">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="Calificacion" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
