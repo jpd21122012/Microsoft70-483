@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimetricEncryption", "SimetricEncryption\SimetricEncryption.csproj", "{D3FA9C97-8D42-4256-B2F3-C73E37D0563E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsimetricEncryption", "AsimetricEncryption\AsimetricEncryption.csproj", "{B6129A13-55BC-4D8F-8FA8-6804FCFC2169}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{D3FA9C97-8D42-4256-B2F3-C73E37D0563E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3FA9C97-8D42-4256-B2F3-C73E37D0563E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3FA9C97-8D42-4256-B2F3-C73E37D0563E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6129A13-55BC-4D8F-8FA8-6804FCFC2169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6129A13-55BC-4D8F-8FA8-6804FCFC2169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6129A13-55BC-4D8F-8FA8-6804FCFC2169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6129A13-55BC-4D8F-8FA8-6804FCFC2169}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
