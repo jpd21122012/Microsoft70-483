@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO1", "POO1\POO1.csproj", "{0A35A189-0CDD-4163-B1A9-7A70EE6D2F97}"
 EndProject
@@ -66,6 +66,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyLibrary", "AssemblyLibrary\AssemblyLibrary.csproj", "{DB36ED31-E601-456E-8B29-90BC1F022511}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{8DDB75FE-E02E-457C-B031-A91DB1A90190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimetricEncryption", "SimetricEncryption\SimetricEncryption.csproj", "{D3FA9C97-8D42-4256-B2F3-C73E37D0563E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +203,10 @@ Global
 		{8DDB75FE-E02E-457C-B031-A91DB1A90190}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DDB75FE-E02E-457C-B031-A91DB1A90190}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DDB75FE-E02E-457C-B031-A91DB1A90190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3FA9C97-8D42-4256-B2F3-C73E37D0563E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FA9C97-8D42-4256-B2F3-C73E37D0563E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FA9C97-8D42-4256-B2F3-C73E37D0563E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3FA9C97-8D42-4256-B2F3-C73E37D0563E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
